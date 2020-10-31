@@ -1,3 +1,3 @@
 # BaccaratGame-JavaFx
 
-A networked version of popular casion game Baccarat using JavaFx.
+A networked version of popular casino game Baccarat using JavaFx.
