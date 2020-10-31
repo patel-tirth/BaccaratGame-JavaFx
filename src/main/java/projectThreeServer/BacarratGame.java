@@ -12,6 +12,7 @@ public class BacarratGame {
 	ArrayList<Card> bankerHand;
 	
 	BaccaratDealer theDealer;
+	BaccaratGameLogic gameLogic;
 	double currentBet;
 	double totalWinnings;
 	
@@ -19,14 +20,17 @@ public class BacarratGame {
 	// constructor
 	public BacarratGame()
 	{
-		
+		// 
 	}
+	
+	
 	
 	/* Function to determine if the user won or lost their bet and return the amount won or lost based
       on the current bet */
 	public double evaluateWinnings()
 	
 	{
+		theDealer.generateDeck();
 		return currentBet;
 		
 	}

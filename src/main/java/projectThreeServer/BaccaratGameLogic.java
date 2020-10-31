@@ -9,6 +9,10 @@ public class BaccaratGameLogic {
 	//"Player","Banker" or "Draw"
 	public static String whoWon(ArrayList<Card> hand1, ArrayList<Card>hand2)
 	{
+		
+		if( handTotal(hand1) == handTotal(hand2))
+			return "Draw";
+		
 		return null;
 		
 	}
@@ -35,3 +39,4 @@ public class BaccaratGameLogic {
 	}
 	
 }
+	
